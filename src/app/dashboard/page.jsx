@@ -6,10 +6,10 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
-export const metadata = {
-  title: "healthyUS | Dashboard",
-  description: "This is Contact Page",
-};
+// export const metadata = {
+//   title: "healthyUS | Dashboard",
+//   description: "This is Contact Page",
+// };
 
 const Dashboard = () => {
   
