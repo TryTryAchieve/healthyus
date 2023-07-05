@@ -3,8 +3,13 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+export const metadata = {
+  title: "healthyUS | Blog",
+  description: "This is Contact Page",
+};
+
 async function getData() {
-  const res = await fetch("http://localhost:3000/api/posts", {
+  const res = await fetch("https://healthyus.vercel.app/api/posts", {
     cache: "no-store",
   });
 
