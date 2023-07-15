@@ -11,15 +11,24 @@ const Portfolio = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.selectTitle}>Different Categories</h1>
-      <div className={styles.items}>
-        <Link href="/portfolio/lifestyle" className={styles.item}>
-          <span className={styles.title}>Lifestyle</span>
+      <div className={styles.wrapper}>
+        <Link href="/portfolio/lifestyle" className={styles.card}>
+          <span className={styles.info}> 
+            <span className={styles.title}>Lifestyle</span>
+            blogs to uplift ur lifestyle 
+          </span>
         </Link>
-        <Link href="/portfolio/food" className={styles.item}>
-          <span className={styles.title}>Food</span>
+        <Link href="/portfolio/food" className={styles.card}>
+          <span className={styles.info}> 
+            <span className={styles.title}>Food</span>
+            blogs to uplift ur lifestyle 
+          </span>
         </Link>
-        <Link href="/portfolio/exercise" className={styles.item}>
-          <span className={styles.title}>Exercise</span>
+        <Link href="/portfolio/exercise" className={styles.card}>
+          <span className={styles.info}> 
+            <span className={styles.title}>Exercise</span>
+            blogs to uplift ur lifestyle 
+          </span>
         </Link>
       </div>
     </div>

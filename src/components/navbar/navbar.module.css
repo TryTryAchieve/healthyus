@@ -7,13 +7,30 @@
 
 .logo {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, #a1a1a1 50%, #6D63FE 50%, #2113eb);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
 }
 
 .links {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.link{
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, #a1a1a1 50%, #6D63FE 50%, #2113eb);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
 }
 
 .logout {
@@ -24,3 +41,10 @@
   cursor: pointer;
   border-radius: 3px;
 }
+ 
+ .link:hover {
+  background-position: -100%;
+ }
+ .logo:hover {
+  background-position: -100%;
+ }
