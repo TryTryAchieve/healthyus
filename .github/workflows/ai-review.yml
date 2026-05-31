@@ -18,6 +18,6 @@ jobs:
       - name: AI Code Review
         uses: TryTryAchieve/ai-code-reviewer@master
         with:
-          llm_provider: "openai"
+          llm_provider: "google"
           api_key: ${{ secrets.LLM_API_KEY }}
           custom_instructions: "This is a Next.js project using React and JavaScript."
